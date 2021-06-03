@@ -1,0 +1,319 @@
+$hover_gray: #CCDAD1
+$color_gray: #333333
+$color_black: #0A0908
+$color_white: #F2F4F3
+$color_red: #D64933
+$color_dark_red: #49111C
+$color_item_red: #860505
+$color_light_blue: #9BC4CB
+$color_blue: #3993DD
+$color_green_blue: #3D518C
+$color_yellow: #A59132
+$color_orange: #DA7422
+
+
+*
+  font-family: 'Noto Serif TC', serif
+  //outline: solid 1px
+
+body
+  height: auto
+  overflow-x: hidden
+  overflow-y: visible
+  background-color: rgba($color_yellow,0.3)
+  background-blend-mode: multiply
+  background-image: url(https://i.imgur.com/TAqZJgN.jpg)
+  background-size: 160% auto
+  background-position: 0px 0px
+  background-attachment: fixed
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+p
+  padding: 20px 80px
+  line-height: 30px
+  color: $color_gray
+  font-weight: 600
+  font-size: 18px
+  
+.navbar
+  padding-left: 0px
+  padding-top: 0px
+  padding-bottom: 0px
+  background-color: transparent
+  .dropdown-menu
+    padding-top: 0px
+    padding-bottom: 0px
+    top: 48px
+    border: none
+    background-color: rgba(242,244,243,0.6)
+    a
+      width: 180px
+      padding-left: 0.5rem
+      white-space: normal
+      font-weight: 700
+  @media screen and (max-width: 767px)
+    .dropdown-menu
+      margin-top: 10px
+      .dropdown-item
+        float: right
+        text-align: right
+        padding-right: 10px
+  .navbar-brand
+    font-weight: 900
+    padding: 15px 20px 15px 15px
+    color: $color_dark_red
+    &:hover
+      background-color: rgba($color_gray,0.3)
+      background-blend-mode: multiply
+  .logo
+    background-image: url("https://i.imgur.com/REHngxC.jpg")
+    background-size: auto 100%
+    background-position: -12px 0 
+    width: 30px
+    height: 30px
+    border-radius: 100%
+  .navbar-collapse
+    .nav-link
+      font-weight: 800
+      text-align: right
+      padding-right: 5px
+
+.jumbotron
+  background-color: transparent
+  margin-bottom: 0px
+  .container
+    margin-top: 300px
+    text-align: center
+    h1
+      color: rgba($color_dark_red,1)
+      letter-spacing: 2px
+      font-family: 'Dancing Script', cursive
+      font-size: 80px
+    p
+      font-size: 18px
+      letter-spacing: 1px
+      color: rgba($color_dark_red,0.7)
+      font-weight: 800
+section
+  padding-top: 100px 
+  //padding-bottom: 100px
+#origin
+  background: linear-gradient(rgba($color_white,0),rgba($color_yellow, 0.8) 30%)
+  margin-top: 150px
+  padding-bottom: 0px
+  hr
+    background-color: rgba($color_gray,0.3)
+    width: 90%
+    margin-top: 40px
+#chronicle
+  background: linear-gradient(rgba($color_yellow,0.8),rgba($color_orange,0.6) 40%) 
+  transition-duration: 0.5s
+  hr
+    margin-top: 0px
+    margin-bottom: 65px
+    width: 100px
+    background-color: darken($color_red,15%)
+    border-width: 2px
+  h3 
+    margin-bottom: 30px
+  #post1
+    display: block
+  .intro
+    margin-top: 250px
+    display: none
+    h5
+      color: $color_black
+    p 
+      font-weight: 600
+      line-height: 30px
+      letter-spacing: 1px
+  .chro
+    border-bottom: solid 2px black
+    padding: 0
+    .event
+      position: relative
+      transform: translateY(50%)
+      width: 15px
+      height: 15px
+      border-radius: 100%
+      background-color: $color_dark_red
+      text-align: center
+      z-index: 10
+      &:hover
+        background-color: $color_item_red
+        box-shadow: 0px 0px 10px -1px $color_item_red
+        p
+          color: $color_black
+          font-weight: 700
+      p
+        position: absolute
+        top: 30px
+        left: 50%
+        transform: translateX(-50%)
+        width: 70px
+        padding: 0px
+        color: $color_gray
+        line-height: 35px
+        font-weight: 500
+        span
+          position: relative
+          top: 15px
+    .eventhover
+      background-color: $color_item_red
+      box-shadow: 0px 0px 5px 1px $color_item_red
+      position: relative
+      transform: translateY(50%)
+      width: 15px
+      height: 15px
+      border-radius: 100%
+      text-align: center
+      z-index: 10
+      p
+        color: $color_black
+        font-weight: 800
+        position: absolute
+        top: 30px
+        left: 50%
+        transform: translateX(-50%)
+        width: 70px
+        padding: 0px
+        line-height: 35px
+        span
+          position: relative
+          top: 15px
+#representative
+  padding-top: 100px
+  background: linear-gradient(rgba($color_orange,0.6),rgba($color_light_blue, 0.6) 35%)
+  hr
+    margin-top: 0px
+    margin-bottom: 40px
+    background-color: rgba($color_gray,0.1)
+  h3
+    margin-bottom: 40px
+  .carousel-item
+    
+  #work1,#work2,#work3
+    .row
+      width: 80%
+      margin: 0 auto
+    img
+      width: 400px
+      background-size: cover
+      background-position: -40px 0px
+      margin-bottom: 50px
+      margin-top: 20px
+  .work_story
+    padding: 20px 50px
+    margin-bottom: 50px
+    h5
+      text-align: center
+      margin-bottom: 40px
+    p
+      padding: 0px
+  .carousel-control-prev
+    left: -1%
+  .carousel-control-next
+    right: -1%
+#future
+  background: linear-gradient(rgba($color_light_blue,0.6),rgba($color_blue,0.6) 30%)
+  .container
+    padding: 0px 50px
+  h3
+    margin-bottom: 60px
+  .card
+    border: none
+    background-color: rgba($color_orange,0.1)
+    margin-bottom: 30px
+    &:hover
+      background-color: rgba($color_green_blue,0.4)
+      p
+        color: $color_white
+        font-weight: 400
+      h5
+        color: $color_white
+        
+    .card-body
+      flex-direction: column
+    img
+      width: 150px
+      height: 150px
+      border-radius: 100%
+      margin-top: 30px
+    h5
+      color: $color_gray
+    p
+      padding: 0px
+      margin-bottom: 30px
+      color: rgba(darken($color_gray,30%),0.8)
+#recruit
+  padding-top: 150px
+  padding-bottom: 0px
+  background: linear-gradient(rgba($color_blue,0.6),rgba($color_green_blue,0.7) 50%)
+  .container
+    padding: 0px 50px
+    color: rgba($color_black,0.8)
+  hr
+    background-color: rgba($hover_gray,0.4)
+    margin: 25px 0px
+  p
+    text-align: center
+    padding: 0px
+    font-weight: 500
+    color: inherit
+  form
+    padding: 20px 50px
+    position: relative
+    right: 8%
+  label
+    position: relative
+    font-weight: 900
+    margin-bottom: 20px
+  input
+    position: relative
+    padding-left: 20px
+    background-color: rgba($color_white,0.5)
+    border: none
+    color: $color_gray
+  input::placeholder
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color_gray
+    opacity: 1  /* Firefox */
+  textarea
+    position: relative
+    height: 200px
+    padding-left: 20px
+    padding-right: 20px
+    background-color: rgba($color_white,0.5)
+    border: none
+  textarea::placeholder
+    color: $color_gray
+    opacity: 1
+  button
+    position: relative
+    right: -8%
+  .top
+    display: none
+    width: 60px
+    color: rgba($color_white,0.8)
+    font-weight: 700 
+  @media screen and (max-width: 768px)
+    form
+      right: 0%
+      button
+        right: 0%
+      
+@media screen and (min-width: 768px)
+  #future
+    .card
+      height: 950px
+      
+@media screen and (min-width: 992px)
+  #future
+    .card
+      height: 750px
+      
+@media screen and (min-width: 1200px)
+  #future
+    .card
+      height: 650px
