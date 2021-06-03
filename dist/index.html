@@ -1,221 +1,273 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - project5</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&amp;family=Dancing+Script:wght@700&amp;family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&amp;display=swap'><link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'>
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&amp;family=Dancing+Script:wght@700&amp;family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<nav class="navbar navbar-expand-md navbar-light fixed-top" id="navigation"><a class="navbar-brand" href="#header">
-    <div class="logo d-inline-block align-top mr-1"></div>宸菓</a>
-  <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item mr-2"><a class="nav-link" href="#origin">緣起</a></li>
-      <li class="nav-item mr-2"><a class="nav-link" href="#chronicle">大事記</a></li>
-      <li class="nav-item dropdown mr-2"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">代表作品</a>
-        <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#work1">相會之地</a><a class="dropdown-item" href="#work2">黑加崙焙茶生巧塔</a><a class="dropdown-item" href="#work3">A one and a one and a one</a></div>
-      </li>
-      <li class="nav-item mr-2"><a class="nav-link" href="#future">未來</a></li>
-      <li class="nav-item mr-2"><a class="nav-link" href="#recruit">招募</a></li>
-    </ul>
-  </div>
-</nav>
-<section class="jumbotron rounded-0" id="header">
-  <div class="container">
-    <h1 data-0="transform: translateY(-50px)" data-500="transform: translateY(200px)" data-1000="transform: translateY(500px)">Ray and Sea Pâtisserie</h1>
-    <p data-0="transform: translateY(0px)" data-500="transform: translateY(130px)" data-1000="transform: translateY(260px)">不是夢想，亦非興趣，而是我的生命</p>
-  </div>
-</section>
-<section id="origin">
-  <div class="container">
-    <div class="row">
-      <div class="col-12" data-bottom-top="opacity: 0.2" data-180-top="opacity: 1">
-        <h3 class="text-center mb-3">關於我的故事</h3>
-        <hr/>
-        <p class="story">有次我姐買了很多草莓吃不完，不想浪費這些草莓，就心血來潮的買了一個蛋糕模來做草莓乳酪蛋糕。後來送給朋友吃，朋友的回饋令我頗有成就。其實這也不是我第一次做甜點送朋友吃，卻是第一次這麼令人感到「原來我也可以做好一件事」。<br><br>之前做甜點的感覺比較像是在做一件帥氣的事，要展現自己。那一次做甜點的感覺卻與之前的感受大不相同。我想這正是讓我對於這件事著迷的原因，在即將踏入24歲的時候，多了很多生命經歷，可能是對未來的想像，或是朋友的愛，把這些感情融入我的甜點之中，便覺得自己做出來的東西會發光。雖然可能很多都失敗了，但那還是比那時在工作中獲得成就感更令人滿足。<br><br>於是，這個旅程便這麼開始了。</p>
+  <!-- partial:index.partial.html -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top" id="navigation"><a class="navbar-brand" href="#header">
+      <div class="logo d-inline-block align-top mr-1"></div>宸菓 | Ray and Sea Pâtisserie
+    </a>
+    <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-2"><a class="nav-link" href="#origin">緣起</a></li>
+        <li class="nav-item mr-2"><a class="nav-link" href="#chronicle">大事記</a></li>
+        <li class="nav-item dropdown mr-2"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">代表作品</a>
+          <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown"><a class="dropdown-item"
+              href="#work1">相會之地</a><a class="dropdown-item" href="#work2">黑加崙焙茶生巧塔</a><a class="dropdown-item"
+              href="#work3">A one and a one and a one</a></div>
+        </li>
+        <li class="nav-item mr-2"><a class="nav-link" href="#future">未來</a></li>
+        <li class="nav-item mr-2"><a class="nav-link" href="#recruit">招募</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbotron rounded-0" id="header">
+    <div class="container">
+      <h1 data-0="transform: translateY(-50px)" data-500="transform: translateY(200px)"
+        data-1000="transform: translateY(500px)">Ray and Sea Pâtisserie</h1>
+      <p data-0="transform: translateY(0px)" data-500="transform: translateY(130px)"
+        data-1000="transform: translateY(260px)">不是夢想，亦非興趣，而是我的生命</p>
+    </div>
+  </section>
+  <section id="origin">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-bottom-top="opacity: 0.2" data-180-top="opacity: 1">
+          <h3 class="text-center mb-3">關於我的故事</h3>
+          <hr />
+          <p class="story">
+            有次我姐買了很多草莓吃不完，不想浪費這些草莓，就心血來潮的買了一個蛋糕模來做草莓乳酪蛋糕。後來送給朋友吃，朋友的回饋令我頗有成就。其實這也不是我第一次做甜點送朋友吃，卻是第一次這麼令人感到「原來我也可以做好一件事」。<br><br>之前做甜點的感覺比較像是在做一件帥氣的事，要展現自己。那一次做甜點的感覺卻與之前的感受大不相同。我想這正是讓我對於這件事著迷的原因，在即將踏入24歲的時候，多了很多生命經歷，可能是對未來的想像，或是朋友的愛，把這些感情融入我的甜點之中，便覺得自己做出來的東西會發光。雖然可能很多都失敗了，但那還是比那時在工作中獲得成就感更令人滿足。<br><br>於是，這個旅程便這麼開始了。
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="chronicle">
-  <div class="container">
-    <div class="row">
-      <div class="col-12" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
-        <h3 class="text-center">大事紀</h3>
-        <hr/>
-      </div>
-      <div class="col-12 chro d-flex justify-content-around">
-        <div class="event eventhover" data-post="post1"> 
-          <p>2020 Mar.<br><span>第一顆蛋糕</span></p>
+  </section>
+  <section id="chronicle">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
+          <h3 class="text-center">大事紀</h3>
+          <hr />
         </div>
-        <div class="event" data-post="post2">
-          <p>2020 Apr.<br><span>訂下<br>目標</span></p>
+        <div class="col-12 chro d-flex justify-content-around">
+          <div class="event eventhover" data-post="post1">
+            <p>2020 Mar.<br><span>第一顆蛋糕</span></p>
+          </div>
+          <div class="event" data-post="post2">
+            <p>2020 Apr.<br><span>訂下<br>目標</span></p>
+          </div>
+          <div class="event" data-post="post3">
+            <p>2020 Jun.<br><span>沉澱</span></p>
+          </div>
+          <div class="event" data-post="post4">
+            <p>2020 Sep.<br><span>公館<br>擺攤</span></p>
+          </div>
+          <div class="event" data-post="post5">
+            <p>2020 Oct.<br><span>丙檢</span></p>
+          </div>
+          <div class="event" data-post="post6">
+            <p>2021 Feb.<br><span>第一次教學</sapn>
+            </p>
+          </div>
         </div>
-        <div class="event" data-post="post3">
-          <p>2020 Jun.<br><span>沉澱</span></p>
+        <div class="col-12 intro" id="post1" data-bottom-top="opacity: 0" data-600-top="transform: translateY(-100px)"
+          data-400-top="opacity: 1;transform: translateY(0px)">
+          <h5 class="text-center mb-3">第一次做出滿意的甜點</h5>
+          <p>
+            一開始會做草莓重乳酪蛋糕，部分原因純粹是那時有個朋友說他沒有食慾。突然覺得自己可以來試試看做到甜點，想像朋友吃了會說好餓我想再吃。結果並沒有如我預期，反而是自己被療癒。此後我不斷地做甜點拿給朋友們試吃，大家人都很好，就算味道不好還是會說出幾個優點，吃的時候至少都是一副開心的臉。我會害怕失敗，但朋友們仍會笑笑地吃掉我做的甜點。感謝朋友們讓我長出了愛人的力量，能夠對他人付出關愛。或許我會想做甜點，其實是我的朋友們分了一些他們的感情，或者說生命力之類的東西給我，這些東西流進我的心裡，我的心裡也長出一些什麼，是強大的力量，是我會想做甜點的「重要的理由」呢。
+          </p>
         </div>
-        <div class="event" data-post="post4">
-          <p>2020 Sep.<br><span>公館<br>擺攤</span></p>
+        <div class="col-12 intro" id="post2">
+          <h5 class="text-center mb-3">決定認真學習做甜點</h5>
+          <p>
+            18歲時曾經做了一顆巧克力蛋糕給當時心儀的女生，不過蛋糕卻大失敗。18歲的我還來不及想到24歲，我便已經成為24歲，大笑著18歲時的無心嘗試成為現今人生最重要的部份。或許我的生命的確荒謬，常做一些毫無關聯的事，總是不能持續專注在某件事情上。<br><br>但我決心要拋下過去的自己向前了。因此我訂了一個目標：在半年後成功考取西點丙級的證照。為此我必須持續不斷的練習，必須要專注在「甜點」這件事情上，必須好好的再跟自己對話，想著要如何能夠持續的、努力不懈的過著甜點人生。<br><br>不知道10年之後再回過頭來看現在這個決定，是否會覺得正確呢？
+          </p>
         </div>
-        <div class="event" data-post="post5">
-          <p>2020 Oct.<br><span>丙檢</span></p>
+        <div class="col-12 intro" id="post3">
+          <h5 class="text-center mb-3">休息是為了走更長遠的路</h5>
+          <p>
+            什麼是擅長呢？是覺得自己在某方面很厲害嗎？還是在某個領域做了厲害的事情？又或者是能夠在某件事情上贏過百分之幾的人？我不知道。從前的我想要成為厲害的人，但我只知道一種「強大」，是勝過所有人的強大，意味著要成為第一名的意思。要成為第一名很難，不能失敗，失敗也要站起來，要變得比所有人都厲害。想到這些就會想放棄，往往我也就半途而廢。<br><br>我害怕失敗。害怕失敗的感覺逐漸明朗，原本喜歡上做甜點是因為內心可以很平靜，可以和自己對話，但現在卻漸漸地聽不到聲音。某天和朋友在聊未來的合作的想法，聊到最後被餵了一整鍋雞湯。他說：整個甜點裡面，最無可取代的是你的想法，世界上沒有任何一個人可以取代你。<br><br>於是我決定暫時不做甜點一段時間。取而代之的是，要完成一些課題：練習改變自己對於「強大」的定義。儘管理性上我已經不再把專業技術的純熟視為強大的唯一標準，但要接受自己做出來的甜點不好吃或長得不好看還是很難。不過我已經瞭解重要的東西是什麼，我會更重視重要的東西，所以要開始創個甜點帳寫甜點日記，名字會是Ray
+            and Sea，Ray是名字象徵的涵義；而海是我喜歡的事物，大海很寬廣，看著大海就會有力量。這個名字更有種期待感：Let’s wait and see。</p>
         </div>
-        <div class="event" data-post="post6">
-          <p>2021 Feb.<br><span>第一次教學</sapn></p>
+        <div class="col-12 intro" id="post4">
+          <h5 class="text-center mb-3">去公館市集擺攤！</h5>
+          <p>
+            要說第一次擺攤是個難得的經驗，這是肯定的，而且理論上來說也是如此。畢竟用盡全力展現鬥志了許久，甚至有些超越極限，如何能不印象深刻？但事前細想究竟會是怎樣的體驗，無非就是「啊好感動」或「努力這麼久終於有回報」這種理所當然的心得。收完攤回家後想到要收拾到處堆疊的盒子箱子，還有占滿房間地板的擺攤用具，連感動的心情都快沒有。睡完一覺醒來，早上8點，卻突然有種深刻的體悟，這些日子以來我做的白日夢竟已成真，原來白天真的能作夢。<br><br>當然我並沒有掌控好所有的事情，但我所達成的這些種種，遠比我在腦中幻想的白日夢場景超過很多很多，實在太美麗。而我僅能對著那些美麗的失敗不斷說著感謝，因為我心理面也僅充滿感謝
+            (和些微疲倦)，向著無論是用何種形式支持我或鼓勵我，甚至是在心裡默默為我打氣的人。接下來要做的不再是超越極限─實在太累，有點消磨心志─而是增加自己的極限，增加自己的可能性。<br><br>容我再次感謝。</p>
         </div>
-      </div>
-      <div class="col-12 intro" id="post1" data-bottom-top="opacity: 0" data-600-top="transform: translateY(-100px)" data-400-top="opacity: 1;transform: translateY(0px)">
-        <h5 class="text-center mb-3">第一次做出滿意的甜點</h5>
-        <p>一開始會做草莓重乳酪蛋糕，部分原因純粹是那時有個朋友說他沒有食慾。突然覺得自己可以來試試看做到甜點，想像朋友吃了會說好餓我想再吃。結果並沒有如我預期，反而是自己被療癒。此後我不斷地做甜點拿給朋友們試吃，大家人都很好，就算味道不好還是會說出幾個優點，吃的時候至少都是一副開心的臉。我會害怕失敗，但朋友們仍會笑笑地吃掉我做的甜點。感謝朋友們讓我長出了愛人的力量，能夠對他人付出關愛。或許我會想做甜點，其實是我的朋友們分了一些他們的感情，或者說生命力之類的東西給我，這些東西流進我的心裡，我的心裡也長出一些什麼，是強大的力量，是我會想做甜點的「重要的理由」呢。</p>
-      </div>
-      <div class="col-12 intro" id="post2">
-        <h5 class="text-center mb-3">決定認真學習做甜點</h5>
-        <p>18歲時曾經做了一顆巧克力蛋糕給當時心儀的女生，不過蛋糕卻大失敗。18歲的我還來不及想到24歲，我便已經成為24歲，大笑著18歲時的無心嘗試成為現今人生最重要的部份。或許我的生命的確荒謬，常做一些毫無關聯的事，總是不能持續專注在某件事情上。<br><br>但我決心要拋下過去的自己向前了。因此我訂了一個目標：在半年後成功考取西點丙級的證照。為此我必須持續不斷的練習，必須要專注在「甜點」這件事情上，必須好好的再跟自己對話，想著要如何能夠持續的、努力不懈的過著甜點人生。<br><br>不知道10年之後再回過頭來看現在這個決定，是否會覺得正確呢？</p>
-      </div>
-      <div class="col-12 intro" id="post3">
-        <h5 class="text-center mb-3">休息是為了走更長遠的路</h5>
-        <p>什麼是擅長呢？是覺得自己在某方面很厲害嗎？還是在某個領域做了厲害的事情？又或者是能夠在某件事情上贏過百分之幾的人？我不知道。從前的我想要成為厲害的人，但我只知道一種「強大」，是勝過所有人的強大，意味著要成為第一名的意思。要成為第一名很難，不能失敗，失敗也要站起來，要變得比所有人都厲害。想到這些就會想放棄，往往我也就半途而廢。<br><br>我害怕失敗。害怕失敗的感覺逐漸明朗，原本喜歡上做甜點是因為內心可以很平靜，可以和自己對話，但現在卻漸漸地聽不到聲音。某天和朋友在聊未來的合作的想法，聊到最後被餵了一整鍋雞湯。他說：整個甜點裡面，最無可取代的是你的想法，世界上沒有任何一個人可以取代你。<br><br>於是我決定暫時不做甜點一段時間。取而代之的是，要完成一些課題：練習改變自己對於「強大」的定義。儘管理性上我已經不再把專業技術的純熟視為強大的唯一標準，但要接受自己做出來的甜點不好吃或長得不好看還是很難。不過我已經瞭解重要的東西是什麼，我會更重視重要的東西，所以要開始創個甜點帳寫甜點日記，名字會是Ray and Sea，Ray是名字象徵的涵義；而海是我喜歡的事物，大海很寬廣，看著大海就會有力量。這個名字更有種期待感：Let’s wait and see。</p>
-      </div>
-      <div class="col-12 intro" id="post4">
-        <h5 class="text-center mb-3">去公館市集擺攤！</h5>
-        <p>要說第一次擺攤是個難得的經驗，這是肯定的，而且理論上來說也是如此。畢竟用盡全力展現鬥志了許久，甚至有些超越極限，如何能不印象深刻？但事前細想究竟會是怎樣的體驗，無非就是「啊好感動」或「努力這麼久終於有回報」這種理所當然的心得。收完攤回家後想到要收拾到處堆疊的盒子箱子，還有占滿房間地板的擺攤用具，連感動的心情都快沒有。睡完一覺醒來，早上8點，卻突然有種深刻的體悟，這些日子以來我做的白日夢竟已成真，原來白天真的能作夢。<br><br>當然我並沒有掌控好所有的事情，但我所達成的這些種種，遠比我在腦中幻想的白日夢場景超過很多很多，實在太美麗。而我僅能對著那些美麗的失敗不斷說著感謝，因為我心理面也僅充滿感謝 (和些微疲倦)，向著無論是用何種形式支持我或鼓勵我，甚至是在心裡默默為我打氣的人。接下來要做的不再是超越極限─實在太累，有點消磨心志─而是增加自己的極限，增加自己的可能性。<br><br>容我再次感謝。</p>
-      </div>
-      <div class="col-12 intro" id="post5">
-        <h5 class="text-center mb-3">西點丙級未通過...</h5>
-        <p>抽出考試籤的那刻就覺得凶多吉少。心裡的忐忑如預期成為現實，拿到成績單走出辦公室，看到通過的考生很開心地和他們的證照合影，一瞬間恨透抽出這支籤的考生。<br><br>沒有這張證照還是能繼續做甜點，不是非拿到不可，通過與否不能完全反應在甜點這個領域上的造詣。但對我來說，這是一種通過國家考試來達到對自我的承認。回家的路上想著這幾個月來我為了這場考試做的準備，付出的努力，當然不可能因為「不及格」這三個字就全部否定。但想想也確實不能將通過或不通過，寄託在抽出來的考試籤上，好像我是憑運氣取得證照一樣。想著「要是之前再多努一點」或是「考前再多練幾次蛋糕捲」，卻也知道這種想法多麼無意義與不合理，時間心力都有限，考前幾天甚至壓力大到睡不好覺。<br><br>一場考試的結局不會影響我生活太多，在我壓力大到睡不著的那幾天就已經準備好接受這樣的結果。不過就先這樣吧，半年前設定了這個十分具體的目標，沒通過很不甘心，但是我不會停下來的。</p>
-      </div>
-      <div class="col-12 intro" id="post6">
-        <h5 class="text-center mb-3">教朋友做布朗尼！</h5>
-        <p>年初時朋友問我可不可以教她做巧克力的甜點，她想要在男友生日的時候送她男友。第一次要從頭到尾教別人做甜點，覺得應該先從簡單的開始比較保險，不容易失誤又大受好評的布朗尼變成為首選。<br><br>教別人做甜點會有種莫名的優越感，即使是簡單的布朗尼，對於新手來說似乎也不是無痛上手。平常覺得蠻簡單的攪拌手法、食材加入方式、各種判斷的時機點，對於朋友而言都需要心力思考。想到初期自己每次做完甜點的狼狽模樣，原來已經化成肌肉記憶和經驗了。<br><br>不過看了一些法式甜點主廚的食譜書，又會覺得這種優越感其實頗廉價哈哈。每每佩服這些人的創作是如何喚醒我的味蕾想像甜點的美味，一方面也期望有朝一日我也有這樣的水準！</p>
+        <div class="col-12 intro" id="post5">
+          <h5 class="text-center mb-3">西點丙級未通過...</h5>
+          <p>
+            抽出考試籤的那刻就覺得凶多吉少。心裡的忐忑如預期成為現實，拿到成績單走出辦公室，看到通過的考生很開心地和他們的證照合影，一瞬間恨透抽出這支籤的考生。<br><br>沒有這張證照還是能繼續做甜點，不是非拿到不可，通過與否不能完全反應在甜點這個領域上的造詣。但對我來說，這是一種通過國家考試來達到對自我的承認。回家的路上想著這幾個月來我為了這場考試做的準備，付出的努力，當然不可能因為「不及格」這三個字就全部否定。但想想也確實不能將通過或不通過，寄託在抽出來的考試籤上，好像我是憑運氣取得證照一樣。想著「要是之前再多努一點」或是「考前再多練幾次蛋糕捲」，卻也知道這種想法多麼無意義與不合理，時間心力都有限，考前幾天甚至壓力大到睡不好覺。<br><br>一場考試的結局不會影響我生活太多，在我壓力大到睡不著的那幾天就已經準備好接受這樣的結果。不過就先這樣吧，半年前設定了這個十分具體的目標，沒通過很不甘心，但是我不會停下來的。
+          </p>
+        </div>
+        <div class="col-12 intro" id="post6">
+          <h5 class="text-center mb-3">教朋友做布朗尼！</h5>
+          <p>
+            年初時朋友問我可不可以教她做巧克力的甜點，她想要在男友生日的時候送她男友。第一次要從頭到尾教別人做甜點，覺得應該先從簡單的開始比較保險，不容易失誤又大受好評的布朗尼變成為首選。<br><br>教別人做甜點會有種莫名的優越感，即使是簡單的布朗尼，對於新手來說似乎也不是無痛上手。平常覺得蠻簡單的攪拌手法、食材加入方式、各種判斷的時機點，對於朋友而言都需要心力思考。想到初期自己每次做完甜點的狼狽模樣，原來已經化成肌肉記憶和經驗了。<br><br>不過看了一些法式甜點主廚的食譜書，又會覺得這種優越感其實頗廉價哈哈。每每佩服這些人的創作是如何喚醒我的味蕾想像甜點的美味，一方面也期望有朝一日我也有這樣的水準！
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="representative">
-  <div class="container">
-    <div class="row" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
-      <div class="col-12">
-        <h3 class="text-center">作品</h3>
-        <hr/>
+  </section>
+  <section id="representative">
+    <div class="container">
+      <div class="row" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
+        <div class="col-12">
+          <h3 class="text-center">作品</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row carousel slide" id="carouselIndicators" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#carouselIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="work1">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto"
+                  src="https://i.imgur.com/Cfq2Ghq.jpg" title="source: imgur.com" alt="" /></div>
+              <div class="col-12 work_story">
+                <h5>相會之地</h5>
+                <p>
+                  先是檸檬與茂谷柑柔和的酸，再來是榛果杏仁強烈的甜與其交織，是波浪，我聽到波浪一樣的回聲。<br><br>做為基底與主體的檸檬餡，在其中加入些許的鹽和茂谷柑果汁，讓酸的味道更柔和。另外，為了要讓沙灘有點層次，抹上了深色的榛果杏仁醬。最後海洋的藍色，不想用色素的我只想到蝶豆花，不過蝶豆花碰到酸性物質會變紫色。因此榛果杏仁醬除了調色作用外，也可稍微隔絕蝶豆花與檸檬餡的接觸。<br><br>為什麼是海？或許是作為一個都市小孩的嚮往；或許是因為大海的寬廣會讓我知道自己的存在；或許是看著浪花上岸，聽著潮聲入耳，心情就會無比的平靜；或許是因為曾經差點溺死在海裡，才瞭解海不只可以納百川，連我的軀體都可以安靜地沉睡其中。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="work2">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto"
+                  src="https://i.imgur.com/tvg1ZHf.jpg" title="source: imgur.com" alt="" /></div>
+              <div class="col-12 work_story">
+                <h5>黑醋栗焙茶生巧克力塔</h5>
+                <p>
+                  某次吃到焙茶泡芙，好吃到不行，就決定日後一定要做焙茶的甜點。後來決定製作焙茶塔，並且搭配酸酸的莓果。我用的是黑醋栗，它是種光聞煮果醬的香味就會垂涎三尺的莓果。<br><br>我非常喜歡這樣的組合，但得到的評價卻很兩極，大部份的人覺得這組合很奇怪，不過又有少部分人也跟我一樣喜歡這種組合。這讓我有點煩惱。煩惱的是，要不要單做焙茶塔或莓果塔就好迎合大眾喜愛？可自己又實在很喜歡這樣的組合。後來我調整了莓果內餡的配方，然後抓了一個比例，是我覺得可以讓這兩者有最棒呈現的比例。<br><br>我非常喜歡這款塔，也非常喜歡我自己。這一項甜點似乎也象徵「我」。我也是個奇怪的人，但也會想迎合大眾。我也在兩個自己之間調和，stand
+                  out，or fit in。</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="work3">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto"
+                  src="https://i.imgur.com/r4Ahg4o.jpg" title="source: imgur.com" alt="" /></div>
+              <div class="col-12 work_story">
+                <h5>A one and a one and a one</h5>
+                <p>千層的「層」來自於麵團與油團膨脹的程度不同，將麵團重複擀平再折疊的過程，即是增加層數，卻也是最費工的步驟。2020的夏天時就想冬天一定要試試看這個感覺很麻煩的甜點
+                  (因為冬天的溫度較低，油團較不易融化)。做起來比想像中更麻煩，舉凡鬆弛時間、擀的方向與方式、整個操作時間，都大大影響其口感。做出來的結果是有點紮實的千層酥，雖然還是看的到層次，但感覺愧對「千層」之名。<br><br>主流做法是疊三塊千層，並在中間擠餡，這樣的外型讓我想到「三」及「川」。「川」是朋友的名字，「三」則是由三個「一」相疊，代表多：知識很多、專長很多、想做的事情也很多。送他這個千層，是要說：我想做的事情也很多，一起努力吧！
+                </p>
+              </div>
+            </div>
+          </div>
+        </div><a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev"><span
+            class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a
+          class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next"><span
+            class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
       </div>
     </div>
-    <div class="row carousel slide" id="carouselIndicators" data-ride="carousel" data-interval="false">
-      <ol class="carousel-indicators">
-        <li class="active" data-target="#carouselIndicators" data-slide-to="0"></li>
-        <li data-target="#carouselIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active" id="work1">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto" src="https://i.imgur.com/Cfq2Ghq.jpg" title="source: imgur.com" alt=""/></div>
-            <div class="col-12 work_story">
-              <h5>相會之地</h5>
-              <p>先是檸檬與茂谷柑柔和的酸，再來是榛果杏仁強烈的甜與其交織，是波浪，我聽到波浪一樣的回聲。<br><br>做為基底與主體的檸檬餡，在其中加入些許的鹽和茂谷柑果汁，讓酸的味道更柔和。另外，為了要讓沙灘有點層次，抹上了深色的榛果杏仁醬。最後海洋的藍色，不想用色素的我只想到蝶豆花，不過蝶豆花碰到酸性物質會變紫色。因此榛果杏仁醬除了調色作用外，也可稍微隔絕蝶豆花與檸檬餡的接觸。<br><br>為什麼是海？或許是作為一個都市小孩的嚮往；或許是因為大海的寬廣會讓我知道自己的存在；或許是看著浪花上岸，聽著潮聲入耳，心情就會無比的平靜；或許是因為曾經差點溺死在海裡，才瞭解海不只可以納百川，連我的軀體都可以安靜地沉睡其中。</p>
+  </section>
+  <section id="future">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
+          <h3 class="text-center">未來計畫</h3>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card" data-aos="flip-left">
+            <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top"
+                src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt="" />
+              <h5 class="card-title mt-4">開單</h5>
+              <p class="card-text mt-2">
+                到現場擺攤需要有較好的設備會比較輕鬆，至少冰箱的容量要夠大，才能存放做好要賣的甜點。<br>不過使用網路販售就可以稍微彈性一點，等我能夠拿出三五項得意之作，希望譨購開單來販售，了解我的甜點究竟在其他人眼中如何評價，也為了之後固定販售做準備。
+              </p>
             </div>
           </div>
         </div>
-        <div class="carousel-item" id="work2">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto" src="https://i.imgur.com/tvg1ZHf.jpg" title="source: imgur.com" alt=""/></div>
-            <div class="col-12 work_story">
-              <h5>黑醋栗焙茶生巧克力塔</h5>
-              <p>某次吃到焙茶泡芙，好吃到不行，就決定日後一定要做焙茶的甜點。後來決定製作焙茶塔，並且搭配酸酸的莓果。我用的是黑醋栗，它是種光聞煮果醬的香味就會垂涎三尺的莓果。<br><br>我非常喜歡這樣的組合，但得到的評價卻很兩極，大部份的人覺得這組合很奇怪，不過又有少部分人也跟我一樣喜歡這種組合。這讓我有點煩惱。煩惱的是，要不要單做焙茶塔或莓果塔就好迎合大眾喜愛？可自己又實在很喜歡這樣的組合。後來我調整了莓果內餡的配方，然後抓了一個比例，是我覺得可以讓這兩者有最棒呈現的比例。<br><br>我非常喜歡這款塔，也非常喜歡我自己。這一項甜點似乎也象徵「我」。我也是個奇怪的人，但也會想迎合大眾。我也在兩個自己之間調和，stand out，or fit in。</p>
+        <div class="col-md-4 col-12">
+          <div class="card" data-aos="flip-left" data-aos-delay="100">
+            <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top"
+                src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt="" />
+              <h5 class="card-title mt-4">赴日進修</h5>
+              <p class="card-text mt-2">法國是古老的甜點大國，也有許多舉世聞名的甜點學校。之前讀到了日本甜點主廚的食譜書
+                (例如河田勝彥、金子美明老師)，這些日本甜點主廚將赴法進修後的成果轉化為自己的創作，讓我相當崇拜他們的職人精神。<br>不過之後進修我會選擇了日本，一方面是因為日本的甜點因文化親近的關係會較受台灣所接受，一方面也是距離較近，法國相對而言較為陌生，而日本較為親近。
+              </p>
             </div>
           </div>
         </div>
-        <div class="carousel-item" id="work3">
-          <div class="row">
-            <div class="col-12 d-flex justify-content-center"><img class="img-fluid mx-auto" src="https://i.imgur.com/r4Ahg4o.jpg" title="source: imgur.com" alt=""/></div>
-            <div class="col-12 work_story">
-              <h5>A one and a one and a one</h5>
-              <p>千層的「層」來自於麵團與油團膨脹的程度不同，將麵團重複擀平再折疊的過程，即是增加層數，卻也是最費工的步驟。2020的夏天時就想冬天一定要試試看這個感覺很麻煩的甜點 (因為冬天的溫度較低，油團較不易融化)。做起來比想像中更麻煩，舉凡鬆弛時間、擀的方向與方式、整個操作時間，都大大影響其口感。做出來的結果是有點紮實的千層酥，雖然還是看的到層次，但感覺愧對「千層」之名。<br><br>主流做法是疊三塊千層，並在中間擠餡，這樣的外型讓我想到「三」及「川」。「川」是朋友的名字，「三」則是由三個「一」相疊，代表多：知識很多、專長很多、想做的事情也很多。送他這個千層，是要說：我想做的事情也很多，一起努力吧！</p>
+        <div class="col-md-4 col-12">
+          <div class="card" data-aos="flip-left" data-aos-delay="200">
+            <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top"
+                src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt="" />
+              <h5 class="card-title mt-4">甜點店</h5>
+              <p class="card-text mt-2">
+                這大概是10幾年之後才有辦法完成的事，但並不是不會完成。心中一職有個念頭，想要有個屬於自己的「空間」。空間之中可以按照我喜歡的方式陳設，並且有可以吸引人聚集的因素。目前這個因素便是「甜點」。<br>擁有一家店不只要有熟練的技術，還需要管理、經營、宣傳；資金、設備、人力等也需要準備充分，現在的我做不到，所以我把這個願望託付給未來的我，他一定可以完成的。
+              </p>
             </div>
           </div>
         </div>
-      </div><a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
-    </div>
-  </div>
-</section>
-<section id="future">
-  <div class="container">
-    <div class="row">
-      <div class="col-12" data-bottom-top="opacity: 0" data-center-top="opacity: 1">
-        <h3 class="text-center">未來計畫</h3>
-      </div>
-      <div class="col-md-4 col-12">
-        <div class="card" data-aos="flip-left">
-          <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top" src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt=""/>
-            <h5 class="card-title mt-4">開單</h5>
-            <p class="card-text mt-2">到現場擺攤需要有較好的設備會比較輕鬆，至少冰箱的容量要夠大，才能存放做好要賣的甜點。<br>不過使用網路販售就可以稍微彈性一點，等我能夠拿出三五項得意之作，希望譨購開單來販售，了解我的甜點究竟在其他人眼中如何評價，也為了之後固定販售做準備。</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-12">
-        <div class="card" data-aos="flip-left" data-aos-delay="100">
-          <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top" src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt=""/>
-            <h5 class="card-title mt-4">赴日進修</h5>
-            <p class="card-text mt-2">法國是古老的甜點大國，也有許多舉世聞名的甜點學校。之前讀到了日本甜點主廚的食譜書 (例如河田勝彥、金子美明老師)，這些日本甜點主廚將赴法進修後的成果轉化為自己的創作，讓我相當崇拜他們的職人精神。<br>不過之後進修我會選擇了日本，一方面是因為日本的甜點因文化親近的關係會較受台灣所接受，一方面也是距離較近，法國相對而言較為陌生，而日本較為親近。</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-12">
-        <div class="card" data-aos="flip-left" data-aos-delay="200">
-          <div class="card-body d-flex justify-center align-items-center p-3"><img class="card-img-top" src="https://img.epochtimes.com.tw/upload/images/2014/02/14/80531_medium.jpg" alt=""/>
-            <h5 class="card-title mt-4">甜點店</h5>
-            <p class="card-text mt-2">這大概是10幾年之後才有辦法完成的事，但並不是不會完成。心中一職有個念頭，想要有個屬於自己的「空間」。空間之中可以按照我喜歡的方式陳設，並且有可以吸引人聚集的因素。目前這個因素便是「甜點」。<br>擁有一家店不只要有熟練的技術，還需要管理、經營、宣傳；資金、設備、人力等也需要準備充分，現在的我做不到，所以我把這個願望託付給未來的我，他一定可以完成的。</p>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="recruit">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="text-center mb-3">招募甜點吃貨！</h3>
-        <hr/>
-        <p>(但小心踩雷)</p>
-      </div>
-    </div>
-    <form>
-      <div class="row form-group">
-        <label class="col-12 col-md-2 col-form-label" for="name">怎麼稱呼您</label>
-        <div class="col-12 col-md-10">
-          <input class="form-control" id="name" type="text" placeholder="姓名或暱稱" required="required"/>
+  </section>
+  <section id="recruit">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center mb-3">招募甜點吃貨！</h3>
+          <hr />
+          <p>(但小心踩雷)</p>
         </div>
       </div>
-      <div class="row form-group mt-4">
-        <label class="col-12 col-md-2 col-form-label" for="email">信箱</label>
-        <div class="col-12 col-md-10">
-          <input class="form-control" id="email" type="email" placeholder="您的聯絡信箱" required="required"/>
+      <form>
+        <div class="row form-group">
+          <label class="col-12 col-md-2 col-form-label" for="name">怎麼稱呼您</label>
+          <div class="col-12 col-md-10">
+            <input class="form-control" id="name" type="text" placeholder="姓名或暱稱" required="required" />
+          </div>
         </div>
-      </div>
-      <div class="row form-group mt-4">
-        <label class="col-12 col-md-2 col-form-label" for="suggestion">我想說...</label>
-        <div class="col-12 col-md-10">
-          <textarea class="form-control" id="suggestion" type="text" placeholder="特別喜歡的甜點、想說的話"></textarea>
+        <div class="row form-group mt-4">
+          <label class="col-12 col-md-2 col-form-label" for="email">信箱</label>
+          <div class="col-12 col-md-10">
+            <input class="form-control" id="email" type="email" placeholder="您的聯絡信箱" required="required" />
+          </div>
         </div>
-      </div>
-      <div class="row form-group mt-5">
-        <div class="col-12 d-flex justify-content-center">
-          <button class="btn btn-dark" type="submit">我要當吃貨！</button>
+        <div class="row form-group mt-4">
+          <label class="col-12 col-md-2 col-form-label" for="suggestion">我想說...</label>
+          <div class="col-12 col-md-10">
+            <textarea class="form-control" id="suggestion" type="text" placeholder="特別喜歡的甜點、想說的話"></textarea>
+          </div>
         </div>
-      </div>
-    </form>
-  </div><a class="btn ml-auto fixed-bottom top" href="#header">Top</a>
-</section>
-<!-- partial -->
+        <div class="row form-group mt-5">
+          <div class="col-12 d-flex justify-content-center">
+            <button class="btn btn-dark" type="submit">我要當吃貨！</button>
+          </div>
+        </div>
+      </form>
+    </div><a class="btn ml-auto fixed-bottom top" href="#header">Top</a>
+  </section>
+  <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script>
-<script src='https://unpkg.com/aos@next/dist/aos.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script>
+  <script src='https://unpkg.com/aos@next/dist/aos.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
