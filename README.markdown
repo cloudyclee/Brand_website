@@ -11,11 +11,11 @@
 ## 技術細節
 
 1. 使用 Sass 的變數功能來管理網站顏色
-2. 使用 Bootstarp 的 navbar 元件，並加以改良
+2. 使用 Bootstarp 的 `navbar` 元件，並加以改良
     
-    - 註冊 Bootstrap 的 scrollspy 事件，監控導覽列項目的視覺回饋
-    - 點擊 dropdown-item 後手動添加摺疊目錄的 class 與屬性，修正無法摺疊目錄的問題
-    - 點擊 dropdown-item 後滑動至對應區塊
+    - 註冊 Bootstrap 的 `scrollspy` 事件，監控導覽列項目的視覺回饋
+    - 點擊 `dropdown-item` 後手動添加摺疊目錄的 class 與屬性，修正無法摺疊目錄的問題
+    - 點擊 `dropdown-item` 後滑動至對應區塊
     
 3. 捲軸滾動至一定高度後，增加回到頂部按鈕
 4. 實作區塊滾動：以區塊為單位滾動頁面
